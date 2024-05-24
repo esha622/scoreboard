@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background: #1B244A;
+    padding: 20px 10px;
+    margin: auto;
+    width: 350px;
+    border: 2px solid whitesmoke;
+    border-radius: 5px;
+}
+button{
+    padding:5px;
+    border: 1px solid lightblue;
+    border-radius: 3px;
+    background:none;
+    color: lightblue;
+}
+button:hover{
+    background: black;
+    width: 40px;
+    height: 40px;
+}
+#home{
+    color: white;
+}
+#home-score{
+    background:#0a0001;
+    color: #F94F6D;
+    width: 100px;
+    font-size: 90px;
+    margin: 20px;
+}
+
+#guest{
+    color: white;
+}
+#guest-score{
+    background:#0a0001;
+    color: #F94F6D;
+    width: 100px;
+    font-size: 90px;
+    margin: 20px;
+}
